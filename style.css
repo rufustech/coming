@@ -288,8 +288,8 @@ span {
   
 /* Mobile View */
 @media only screen and (max-width: 767px) {
-    .carousel {
-        display: none; /* Hide the carousel in mobile view */
+    .hero-image-desktop {
+        display: none; /* Hide the desktop image in mobile view */
     }
 
     .hero-banner {
@@ -299,6 +299,20 @@ span {
     .logo-image {
         max-width: 100%; /* Make the logo image responsive */
         height: auto;
+    }
+
+    .text-info h2 {
+        font-size: 3rem; /* Adjust font size for smaller screens */
+    }
+
+    .wrapper {
+        flex-direction: column; /* Change flex direction to column for better stacking */
+        align-items: center; /* Center items in mobile view */
+        padding: 20px; /* Add padding for better spacing in mobile view */
+    }
+
+    .bg-ico {
+        margin: 10px 0; /* Adjust margin for better spacing in mobile view */
     }
 }
 
@@ -604,7 +618,6 @@ span {
     white-space: nowrap;
   }
   
-  @charset "UTF-8";
   
   .svg-inline--fa {
     vertical-align: -0.200em;
