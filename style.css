@@ -693,3 +693,25 @@ span {
     background: #fefefe;
     border-color: #125688;
   }
+  /* Mobile View */
+@media only screen and (max-width: 767px) {
+    .hero-image-desktop {
+        display: none; /* Hide the desktop image in mobile view */
+    }
+    
+    .hero-banner {
+        text-align: center;
+    }
+
+    .logo-image {
+        max-width: 100%; /* Make the logo image responsive */
+        height: auto;
+    }
+
+    .text-info h2 {
+        font-size: 3rem; /* Adjust font size for smaller screens */
+    }
+}
+
+
+}
