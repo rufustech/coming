@@ -111,7 +111,7 @@ input {
 
 /* intended for the first h2 within .text-info */
 .text-info h2:nth-child(1) {
-  color: var(--theme-color-brown);
+  color: #9c27b0;
   font-weight: normal;
   padding-top: 1.8rem;
   padding-bottom: 1rem;
@@ -126,8 +126,9 @@ input {
 }
 
 .text-info p {
-  color: var(--theme-color-brown);
+  color: #9c27b0;
   line-height: 28px;
+  font-weight: 550;
 }
 
 .text-info .email-signup {
